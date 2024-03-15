@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+
+  background-color: black;
+
+  width: 100%;
+  height: 50px;
+
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frontpage{
+  height: 100vh;
+  background: url('img/computer-2982270_1280.jpg') no-repeat center;
+  background-size: cover;
+  opacity: 0.5;
+  
+}
+.frontpage-title{
+  
+}
+
+
+.my-intro{
+  position: relative;
+  height: 100px;
+}
+
+.skills{
+  height: 100px;
+  background-color: lightgray;
+}
+
+.project{
+  height: 100px;
+}
+
+.contact{
+  height: 100px;
+  margin-bottom: 50px;
+  background-color: lightgray;
+}
+
+
+@media (max-width: 1000px) {
+  .article{
+    display: flex;
+  }
+
+  .frontpage, .my-intro{
+    width: 50%;
+  }
+  
+  .skills{
+    width: 30%;
+  }
+
+  .project{
+    width: 70%;
+  }
+}
